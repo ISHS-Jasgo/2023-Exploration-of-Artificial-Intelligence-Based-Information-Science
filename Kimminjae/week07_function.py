@@ -1,6 +1,9 @@
+import my_util
+
 animal = 'fruitbat'
 
 
+@my_util.time_checker
 def change_and_print_global():
     global animal
     student = 'woojin'
@@ -12,6 +15,7 @@ def change_and_print_global():
     print(change_and_print_global.__doc__)
 
 
+@my_util.time_checker
 def factorial_repetition(n):
     """
     factorial function with repetition
@@ -25,6 +29,7 @@ def factorial_repetition(n):
     return result
 
 
+@my_util.time_checker
 def factorial_recursion(n):
     """
     factorial function with recursion
@@ -41,6 +46,7 @@ def factorial_recursion(n):
 fibo = []
 
 
+@my_util.time_checker
 def fibonacci_repetition(n):
     """
     fibonacci function with repetition
