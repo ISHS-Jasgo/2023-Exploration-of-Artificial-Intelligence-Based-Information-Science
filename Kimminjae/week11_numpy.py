@@ -9,5 +9,5 @@ print(d2_array[2, 0], d2_array[-1, 0])
 d2_array[0, 0] = 11
 print(d2_array)
 
-d2_array[0, 0] = 22.71
+d2_array[0, 0] = 22.74
 print(d2_array)
