@@ -10,6 +10,10 @@ final_scores = np.array(final)
 
 print(type(mid), type(mid_scores))
 
+total_np = mid_scores + final_scores
+print(f"Total : {total_np}")
+print(f"Average : {total_np / 2}")
+
 # total = list()
 # avg = []
 # for i in range(len(mid)):
